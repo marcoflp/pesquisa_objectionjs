@@ -7,14 +7,14 @@ async function main() {
   console.log('Usuário inserido:', novo);
 
   // buscar todos
-  const usuarios = await Usuario.query();
-  console.log('Todos os usuários:', usuarios);
+//   const usuarios = await Usuario.query();
+//   console.log('Todos os usuários:', usuarios);
 
-  // atualizar
-  const atualizado = await Usuario.query().findById(1).patch({ nome: 'Ana Silva' });
-  console.log('Usuário atualizado:', atualizado);
+//   // atualizar
+//   const atualizado = await Usuario.query().findById(1).patch({ nome: 'Ana Silva' });
+//   console.log('Usuário atualizado:', atualizado);
 
-  // deletar
+//   // deletar
 //   const deletado = await Usuario.query().deleteById(1);
 //   console.log('Usuário deletado:', deletado);
 }
